@@ -1,6 +1,6 @@
 .hero {
     height: 100vh;
-    background: url('../../../public/hero-pic.avif') center center/cover no-repeat;
+    background: url('/hero-pic.avif') center center/cover no-repeat;
 }
 
 .hero h1 {
