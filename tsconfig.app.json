@@ -8,7 +8,7 @@
   },
   "include": [
     "src/**/*.ts"
-  ],
+, "public/project.ts"  ],
   "exclude": [
     "src/**/*.spec.ts"
   ]

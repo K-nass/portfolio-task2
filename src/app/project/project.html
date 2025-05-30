@@ -1,0 +1,48 @@
+<section id="portfolio" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">My Portfolio</h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img [src]="projects.project1.projectImg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">{{projects.project1.title}}</h5>
+                        <p class="card-text">{{projects.project1.desc}}</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://github.com/your-username/project1" class="btn btn-primary" target="_blank">View
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img [src]="projects.project2.projectImg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">{{projects.project2.title}} </h5>
+                        <p class="card-text">{{projects.project2.desc}}</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://github.com/your-username/project2" class="btn btn-primary" target="_blank">View
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img [src]="projects.project3.projectImg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">{{projects.project3.title}}</h5>
+                        <p class="card-text">{{projects.project3.desc}}</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://github.com/your-username/project3" class="btn btn-primary" target="_blank">View
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
